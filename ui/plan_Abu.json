@@ -1,0 +1,7 @@
+{
+    "location": "Abu",
+    "plan": "Connection Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyDjc-xc12oql2Ld_g_fpBdYpHblZH6SSaY",
+    "score": 0,
+    "level": "NORMAL",
+    "timestamp": "20:04:39"
+}

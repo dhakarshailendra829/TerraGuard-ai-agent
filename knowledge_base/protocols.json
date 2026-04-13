@@ -1,0 +1,48 @@
+{
+  "heatwave": {
+    "description": "Extremely high temperature conditions",
+    "triggers": {
+      "temp_gt": 40
+    },
+    "protocol": [
+      "Stay indoors during peak afternoon hours (12 PM - 4 PM)",
+      "Drink plenty of water regularly",
+      "Avoid strenuous outdoor activities",
+      "Wear light and loose clothing",
+      "Check on elderly and children frequently"
+    ]
+  },
+  "flood": {
+    "description": "Heavy rainfall leading to water accumulation",
+    "triggers": {
+      "prec_gt": 50
+    },
+    "protocol": [
+      "Move to higher ground immediately",
+      "Avoid walking or driving through flood water",
+      "Disconnect electrical appliances",
+      "Keep emergency supplies ready",
+      "Follow government evacuation advisories"
+    ]
+  },
+  "storm": {
+    "description": "High wind speed and unstable weather",
+    "triggers": {
+      "wind_gt": 60
+    },
+    "protocol": [
+      "Stay indoors and avoid windows",
+      "Secure loose outdoor objects",
+      "Avoid travel unless necessary",
+      "Keep emergency contacts ready",
+      "Charge mobile devices"
+    ]
+  },
+  "normal": {
+    "description": "No immediate weather threat",
+    "protocol": [
+      "No immediate action required",
+      "Stay updated with weather reports"
+    ]
+  }
+}

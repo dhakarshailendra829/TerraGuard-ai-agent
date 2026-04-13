@@ -1,0 +1,564 @@
+
+================ ALERT ================
+Time: 2026-04-13 15:57:53
+Level: NORMAL
+Score: 0
+
+⚠️ Error: The Gemini agent was unable to generate a response.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 15:59:38
+Level: NORMAL
+Score: 0
+
+⚠️ Error: The Gemini agent was unable to generate a response.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:01:47
+Level: NORMAL
+Score: 0
+
+⚠️ Error: The Gemini agent was unable to generate a response.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:04:42
+Level: NORMAL
+Score: 0
+
+Request Error: 'candidates'
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:07:32
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: models/gemini-1.5-flash-8b is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:08:55
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:10:17
+Level: NORMAL
+Score: 0
+
+## Emergency Action Plan: Abu, Rajasthan
+
+**Status: NORMAL**
+**Primary Threat: NORMAL**
+
+**1. Immediate Actions (Next 30 mins)**
+
+*   **Monitor:** Continuously track official weather forecasts and advisories.
+*   **Review:** Familiarize yourself with this Emergency Action Plan.
+
+**2. Resource Checklist**
+
+*   **Communication:**
+    *   Fully charged mobile devices
+    *   Battery backup power sources
+    *   Local radio receiver
+*   **Information:**
+    *   Access to reliable news sources
+    *   Emergency contact list (see below)
+*   **Basic Supplies (Pre-positioned & Maintained):**
+    *   Water (sufficient for 3 days per person)
+    *   Non-perishable food (sufficient for 3 days per person)
+    *   First-aid kit (well-stocked)
+    *   Flashlights and extra batteries
+    *   Multi-tool or utility knife
+    *   Copies of essential documents (identification, insurance)
+
+**3. Contact Info (Placeholder)**
+
+*   **Local Disaster Management Authority:** [Insert Phone Number]
+*   **District Administration:** [Insert Phone Number]
+*   **Police (Dial 112):** [Insert Phone Number]
+*   **Fire Department:** [Insert Phone Number]
+*   **Ambulance Services:** [Insert Phone Number]
+*   **Nearest Hospital:** [Insert Name & Phone Number]
+*   **Electricity Provider:** [Insert Phone Number]
+*   **Water Supply Department:** [Insert Phone Number]
+*   **Neighbourhood Watch/Community Leaders:** [Insert Names & Phone Numbers]
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:31:49
+Level: NORMAL
+Score: 0
+
+**Emergency Action Plan: Abu, Rajasthan**
+
+**1. Immediate Actions (Next 30 mins)**
+
+*   **No immediate action required.**
+*   **Stay updated with weather reports.** Monitor official sources for any changes in weather conditions.
+
+**2. Resource Checklist**
+
+*   **Communication Devices:** Fully charged mobile phones, battery packs, satellite phones (if available).
+*   **Information Sources:** Battery-powered or hand-crank radio, access to official news outlets.
+*   **First Aid Kit:** Stocked and readily accessible.
+*   **Emergency Supplies:** Water, non-perishable food, blankets, flashlights with extra batteries.
+*   **Important Documents:** Identification, insurance papers, medical records (stored in waterproof containers).
+*   **Community Contact List:** Pre-compiled list of neighbors and local authorities.
+
+**3. Contact Info (Placeholder)**
+
+*   **Local Police:** 100 / [Local Police Station Number]
+*   **Fire Department:** 101 / [Local Fire Station Number]
+*   **Emergency Medical Services (Ambulance):** 108 / [Local Hospital Number]
+*   **District Disaster Management Authority:** [DDMA Contact Number]
+*   **Local Administration (Tehsil/Block Office):** [Local Admin Contact Number]
+*   **Electricity Department:** [Electricity Department Contact Number]
+*   **Water Supply Department:** [Water Supply Department Contact Number]
+*   **Telecommunication Provider:** [Telecom Provider Helpline Number]
+*   **Neighbor Contact 1:** [Neighbor 1 Name & Number]
+*   **Neighbor Contact 2:** [Neighbor 2 Name & Number]
+
+**Important Note:** This plan is a template. Customize with specific local information and conduct regular drills to ensure preparedness.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:56:02
+Level: NORMAL
+Score: 0
+
+Error connecting to AI: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyD4ADx4_2RW9KNikliV6qKcuIzBzxhcGNQ
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:56:04
+Level: NORMAL
+Score: 0
+
+Error connecting to AI: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyD4ADx4_2RW9KNikliV6qKcuIzBzxhcGNQ
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 16:56:07
+Level: NORMAL
+Score: 0
+
+Error connecting to AI: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyD4ADx4_2RW9KNikliV6qKcuIzBzxhcGNQ
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:00:36
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Check API key and Model name.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:00:38
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Check API key and Model name.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:00:40
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Check API key and Model name.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:01:38
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Status: Not Found
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:01:40
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Status: Not Found
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:01:43
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404. Status: Not Found
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:04:36
+Level: NORMAL
+Score: 0
+
+⚠️ AI Offline (Error 404)
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:04:37
+Level: NORMAL
+Score: 0
+
+⚠️ AI Offline (Error 404)
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:04:39
+Level: NORMAL
+Score: 0
+
+⚠️ AI Offline (Error 404)
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:06:59
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404. Please check if your API key is restricted to specific models.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:07:02
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404. Please check if your API key is restricted to specific models.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:07:05
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404. Please check if your API key is restricted to specific models.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:11:06
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404 - Check model access in Google AI Studio
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:11:09
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404 - Check model access in Google AI Studio
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:11:12
+Level: NORMAL
+Score: 0
+
+⚠️ API Error: 404 - Check model access in Google AI Studio
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:14:21
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404: Please check your API key in Google AI Studio.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:14:25
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404: Please check your API key in Google AI Studio.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:14:28
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error 404: Please check your API key in Google AI Studio.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:17:41
+Level: NORMAL
+Score: 0
+
+⚠️ API Error 404: Model not found in your region.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:17:44
+Level: NORMAL
+Score: 0
+
+⚠️ API Error 404: Model not found in your region.
+======================================
+
+
+================ ALERT ================
+Time: 2026-04-13 17:17:47
+Level: NORMAL
+Score: 0
+
+⚠️ API Error 404: Model not found in your region.
+======================================
+
+
+Time: 2026-04-13 19:39:11
+Level: NORMAL
+Score: 0
+
+API Error 404: Model not found in your region.
+
+
+Time: 2026-04-13 19:39:15
+Level: NORMAL
+Score: 0
+
+API Error 404: Model not found in your region.
+
+
+Time: 2026-04-13 19:39:20
+Level: NORMAL
+Score: 0
+
+API Error 404: Model not found in your region.
+
+
+Time: 2026-04-13 19:42:08
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Error: Please verify your API key at aistudio.google.com
+
+
+Time: 2026-04-13 19:42:12
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Error: Please verify your API key at aistudio.google.com
+
+
+Time: 2026-04-13 19:42:17
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Error: Please verify your API key at aistudio.google.com
+
+
+Time: 2026-04-13 19:43:22
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error: All model variants (Flash, Pro) returned 404. Please generate a NEW API Key at aistudio.google.com.
+
+
+Time: 2026-04-13 19:43:29
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error: All model variants (Flash, Pro) returned 404. Please generate a NEW API Key at aistudio.google.com.
+
+
+Time: 2026-04-13 19:43:36
+Level: NORMAL
+Score: 0
+
+⚠️ AI Error: All model variants (Flash, Pro) returned 404. Please generate a NEW API Key at aistudio.google.com.
+
+
+Time: 2026-04-13 19:45:31
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Offline. Please check your API Key at aistudio.google.com
+
+
+Time: 2026-04-13 19:45:32
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Offline. Please check your API Key at aistudio.google.com
+
+
+Time: 2026-04-13 19:45:34
+Level: NORMAL
+Score: 0
+
+⚠️ AI Service Offline. Please check your API Key at aistudio.google.com
+
+
+Time: 2026-04-13 19:47:28
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:47:30
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:47:34
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:52:39
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:52:41
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:52:44
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:57:48
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:57:51
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:57:53
+Level: NORMAL
+Score: 0
+
+⚠️ API Key Error: Please check AI Studio. Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:59:13
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:59:14
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 19:59:16
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-1.5-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 20:01:49
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 20:01:51
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 20:01:53
+Level: NORMAL
+Score: 0
+
+⚠️ LLM Error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+
+
+Time: 2026-04-13 20:04:39
+Level: NORMAL
+Score: 0
+
+Connection Error: 400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyDjc-xc12oql2Ld_g_fpBdYpHblZH6SSaY
+
+
+Time: 2026-04-13 20:04:45
+Level: NORMAL
+Score: 0
+
+API Error 404: Model not found in your region.
+
+
+Time: 2026-04-13 20:04:50
+Level: NORMAL
+Score: 0
+
+API Error 404: Model not found in your region.
+

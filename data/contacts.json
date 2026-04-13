@@ -1,0 +1,20 @@
+{
+    "Abu": {
+        "police": "+91 2974-235100",
+        "hospital": "+91 2974-238444",
+        "ambulance": "108",
+        "electricity": "1800-180-6127"
+    },
+    "Chennai": {
+        "police": "044-2345 2345",
+        "hospital": "044-2829 6013",
+        "ambulance": "102",
+        "electricity": "1912"
+    },
+    "Mumbai": {
+        "police": "022-2262 0111",
+        "hospital": "022-2302 7100",
+        "ambulance": "108",
+        "electricity": "19122"
+    }
+}
