@@ -1,76 +1,73 @@
-<!-- HERO BANNER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=TerraGuard-AI-Agent&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Autonomous%20Environmental%20Intelligence%20%26%20Neural%20Command%20Interface&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
-</p>
+# TerraGuard-AI-Agent
 
----
+**Autonomous Environmental Intelligence & Neural Command Interface**
 
-## 🚀 TerraGuard-AI-Agent
-
-> Autonomous environmental intelligence system for real-time risk detection & AI-driven emergency planning.
+TerraGuard-AI-Agent is a real-time environmental monitoring system that combines weather data, deterministic risk scoring, and AI-powered decision-making to generate localized emergency response plans.
 
 ---
 
 ## 🏷 Badges
 
-<p align="center">
-
-<a href="https://www.python.org/downloads/">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</a>
-
-<a href="https://aistudio.google.com/">
-  <img src="https://img.shields.io/badge/AI%20Engine-Gemini%201.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-</a>
-
-<a href="https://open-meteo.com/">
-  <img src="https://img.shields.io/badge/Weather-Open--Meteo%20API-00C7B7?style=for-the-badge&logo=cloudflare&logoColor=white"/>
-</a>
-
-<a href="https://opensource.org/licenses/MIT">
-  <img src="https://img.shields.io/badge/License-MIT-F7B731?style=for-the-badge"/>
-</a>
-
-</p>
-
----
-
-## ⚙️ Architecture Highlights
-
-- 🔄 **RAG Pipeline**
-- 🧮 **MCDA Risk Scoring (0–100)**
-- ⚡ **300s Deterministic Cycle**
-- 🌍 **SDG 11 & 13 Aligned**
-- 🤖 **LLM-Grounded Action Plans**
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![AI Engine](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-orange)
+![Weather API](https://img.shields.io/badge/API-Open--Meteo-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Stars](https://img.shields.io/github/stars/dhakarshailendra829/TerraGuard-AI-Agent)
 
 ---
 
 ## 🌍 Overview
 
-TerraGuard-AI-Agent bridges the gap between **raw weather data** and **autonomous decision-making**.
+TerraGuard bridges the gap between raw environmental data and autonomous decision-making.
 
-It combines:
+It integrates:
 
-- 🌦 Open-Meteo (real-time weather)
-- 🤖 Gemini 1.5 Flash (AI reasoning)
-- 📚 RAG (protocol grounding)
+- Open-Meteo API (real-time weather data)
+- Gemini 1.5 Flash (AI reasoning engine)
+- RAG pipeline (knowledge-based grounding)
 
-👉 Output: **Localized emergency response plans**
+Output: **Localized, actionable emergency plans**
+
+---
+
+## ⚙️ Core Features
+
+- Real-time weather monitoring
+- MCDA-based threat scoring (0–100)
+- RAG knowledge retrieval
+- AI-generated emergency plans
+- Alert system (event-driven)
+- Dashboard visualization (Chart.js)
 
 ---
 
-## 🧠 Core Features
+## 🧠 Core Algorithms
 
-- 🛰 Real-time weather monitoring  
-- 🧮 Deterministic threat scoring (MCDA)  
-- 🔍 RAG-based SOP retrieval  
-- 🤖 AI-generated action plans  
-- 🔔 Smart alert system  
-- 📊 Dashboard visualization  
+### 1. Threat Scoring (MCDA)
 
----
+```python
+def assess_threat(data):
+    score = 0
+
+    if data['temp'] > 45:
+        score += 40
+    elif data['temp'] > 40:
+        score += 25
+
+    if data['wind'] > 60:
+        score += 30
+
+    return min(score, 100)
+
 ## Run agent
 ```
+git clone https://github.com/dhakarshailendra829/TerraGuard-AI-Agent.git
+cd TerraGuard-AI-Agent
 python -m agent.monitor
+pip install -r requirements.txt
 ```
----
+## Dashboard
+# Open in browser:
+```
+ui/dashboard.html
+```
