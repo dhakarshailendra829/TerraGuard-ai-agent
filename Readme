@@ -4,18 +4,6 @@
 
 TerraGuard-AI-Agent is a real-time environmental monitoring system that combines weather data, deterministic risk scoring, and AI-powered decision-making to generate localized emergency response plans.
 
----
-
-## 🏷 Badges
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![AI Engine](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-orange)
-![Weather API](https://img.shields.io/badge/API-Open--Meteo-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Stars](https://img.shields.io/github/stars/dhakarshailendra829/TerraGuard-AI-Agent)
-
----
-
 ## 🌍 Overview
 
 TerraGuard bridges the gap between raw environmental data and autonomous decision-making.
