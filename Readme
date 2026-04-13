@@ -1,506 +1,76 @@
-<div align="center">
-
 <!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=TerraGuard-AI-Agent&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Autonomous%20Environmental%20Intelligence%20%26%20Neural%20Command%20Interface&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<!-- BADGES ROW 1 -->
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![Gemini 1.5 Flash](https://img.shields.io/badge/AI%20Engine-Gemini%201.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://aistudio.google.com/)
-[![Open-Meteo](https://img.shields.io/badge/Weather-Open--Meteo%20API-00C7B7?style=for-the-badge&logo=cloudflare&logoColor=white)](https://open-meteo.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-F7B731?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-<!-- BADGES ROW 2 -->
-[![RAG Pipeline](https://img.shields.io/badge/Architecture-RAG%20Pipeline-9B59B6?style=flat-square)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation)
-[![MCDA Scoring](https://img.shields.io/badge/Algorithm-MCDA%20Risk%20Index-E74C3C?style=flat-square)](#)
-[![Real-Time](https://img.shields.io/badge/Sync-300s%20Deterministic%20Cycle-2ECC71?style=flat-square)](#)
-[![SDG 11](https://img.shields.io/badge/SDG-11%20Sustainable%20Cities-F39C12?style=flat-square)](https://sdgs.un.org/goals/goal11)
-[![SDG 13](https://img.shields.io/badge/SDG-13%20Climate%20Action-27AE60?style=flat-square)](https://sdgs.un.org/goals/goal13)
-[![Stars](https://img.shields.io/github/stars/yourusername/TerraGuard-AI-Agent?style=flat-square&color=yellow)](https://github.com/yourusername/TerraGuard-AI-Agent)
-
-<br/>
-
-> **TerraGuard-AI-Agent** is an autonomous environmental intelligence system designed for precision monitoring and risk mitigation — fusing real-time weather telemetry with RAG-powered LLMs to deliver localized, actionable emergency response plans for agricultural and urban sectors. Built for functional safety and low-latency deterministic operation.
-
-<br/>
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=TerraGuard-AI-Agent&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Autonomous%20Environmental%20Intelligence%20%26%20Neural%20Command%20Interface&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+</p>
 
 ---
 
-## 📋 Table of Contents
+## 🚀 TerraGuard-AI-Agent
 
-- [Overview](#-overview)
-- [Architecture](#-system-architecture)
-- [Core Algorithms](#-core-algorithms)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Configuration](#-configuration)
-- [Usage](#-usage)
-- [API Key Safety](#-api-key-safety)
-- [SDG Alignment](#-sdg-alignment)
-- [Contributing](#-contributing)
-- [License](#-license)
+> Autonomous environmental intelligence system for real-time risk detection & AI-driven emergency planning.
+
+---
+
+## 🏷 Badges
+
+<p align="center">
+
+<a href="https://www.python.org/downloads/">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+</a>
+
+<a href="https://aistudio.google.com/">
+  <img src="https://img.shields.io/badge/AI%20Engine-Gemini%201.5%20Flash-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+</a>
+
+<a href="https://open-meteo.com/">
+  <img src="https://img.shields.io/badge/Weather-Open--Meteo%20API-00C7B7?style=for-the-badge&logo=cloudflare&logoColor=white"/>
+</a>
+
+<a href="https://opensource.org/licenses/MIT">
+  <img src="https://img.shields.io/badge/License-MIT-F7B731?style=for-the-badge"/>
+</a>
+
+</p>
+
+---
+
+## ⚙️ Architecture Highlights
+
+- 🔄 **RAG Pipeline**
+- 🧮 **MCDA Risk Scoring (0–100)**
+- ⚡ **300s Deterministic Cycle**
+- 🌍 **SDG 11 & 13 Aligned**
+- 🤖 **LLM-Grounded Action Plans**
 
 ---
 
 ## 🌍 Overview
 
-TerraGuard-AI-Agent bridges the critical gap between raw environmental data collection and autonomous decision-making. By integrating live weather telemetry from the **Open-Meteo API** (zero-cost, no key required) with **Google Gemini 1.5 Flash**, the agent generates high-fidelity, geographically localized action plans — calibrated to specific sectors like Abu (Rajasthan), Chennai, and Mumbai.
+TerraGuard-AI-Agent bridges the gap between **raw weather data** and **autonomous decision-making**.
 
-The system is engineered around three principles derived from deterministic architectures and real-time protocols:
+It combines:
 
-| Principle | Implementation |
-|---|---|
-| **Functional Safety** | Rule-bounded MCDA scoring with hard thresholds; no hallucination risk in severity classification |
-| **Low-Latency Sync** | Configurable deterministic polling cycle (default 300s); state transitions trigger pipeline — not timers |
-| **RAG Grounding** | LLM output is strictly grounded in a local knowledge base of verified emergency protocols |
+- 🌦 Open-Meteo (real-time weather)
+- 🤖 Gemini 1.5 Flash (AI reasoning)
+- 📚 RAG (protocol grounding)
 
----
-
-## 🏗 System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    TerraGuard-AI-Agent                          │
-│                                                                 │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────────┐  │
-│  │  Open-Meteo  │───▶│  Threat      │───▶│  RAG Retriever   │  │
-│  │  Weather API │    │  Scorer      │    │  (Knowledge Base)│  │
-│  │  (Free API)  │    │  MCDA 0-100  │    │  protocols.json  │  │
-│  └──────────────┘    └──────────────┘    └────────┬─────────┘  │
-│                                                   │            │
-│  ┌──────────────┐    ┌──────────────┐    ┌────────▼─────────┐  │
-│  │  Alert       │◀───│  Plan        │◀───│  Prompt Builder  │  │
-│  │  Dispatcher  │    │  Generator   │    │  (Structured)    │  │
-│  │              │    │  Gemini LLM  │    │                  │  │
-│  └──────────────┘    └──────────────┘    └──────────────────┘  │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              Neural Dashboard (HTML + Chart.js)          │   │
-│  │         Real-time telemetry · Alert log · SDG tracker   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**Agent Loop (ReAct Pattern):**
-
-```
-Observe → Reason → Retrieve → Act → Dispatch → [loop]
-  ↑                                                │
-  └────────────────────────────────────────────────┘
-             300-second deterministic cycle
-```
+👉 Output: **Localized emergency response plans**
 
 ---
 
-## 🧠 Core Algorithms
+## 🧠 Core Features
 
-### 1 — Multi-Criteria Decision Analysis (MCDA) Threat Scorer
-
-The backbone of TerraGuard. Each meteorological parameter carries a deterministic weight. The final score (0–100) is a clamped weighted sum — no LLM involved in classification.
-
-```python
-# agent/threat_scorer.py
-def assess_threat(data: dict) -> dict:
-    score = 0
-
-    # Temperature — 40pt ceiling
-    if   data['temp'] > 45: score += 40   # extreme heat
-    elif data['temp'] > 40: score += 25   # heat advisory
-    elif data['temp'] > 38: score += 12   # elevated
-
-    # Wind speed — 30pt ceiling
-    if   data['wind'] > 60: score += 30   # storm-force
-    elif data['wind'] > 40: score += 15   # strong
-
-    # Precipitation — 35pt ceiling
-    if   data['prec'] > 50: score += 35   # flash flood risk
-    elif data['prec'] > 20: score += 15   # moderate
-
-    # Wind gusts — 20pt ceiling
-    if   data['gust'] > 80: score += 20
-    elif data['gust'] > 60: score += 10
-
-    return {
-        'score': min(score, 100),          # hard clamp
-        'level': score_to_level(score),    # CLEAR/WATCH/WARNING/EMERGENCY
-    }
-```
-
-### 2 — RAG Retrieval Pipeline
-
-Rule-based trigger matching retrieves the correct emergency SOP from a local JSON knowledge base — injected directly into the LLM prompt to prevent hallucination.
-
-```python
-# agent/rag_retriever.py
-KNOWLEDGE_BASE = {
-    "heatwave":   {"triggers": {"temp__gt": 40}, "protocol": "..."},
-    "dust_storm": {"triggers": {"wind__gt": 50}, "protocol": "..."},
-    "flood":      {"triggers": {"prec__gt": 30}, "protocol": "..."},
-    "routine":    {"triggers": {},               "protocol": "..."},
-}
-
-def retrieve(conditions: dict) -> dict:
-    for key, doc in KNOWLEDGE_BASE.items():
-        if matches_trigger(conditions, doc["triggers"]):
-            return doc
-    return KNOWLEDGE_BASE["routine"]
-```
-
-### 3 — Deterministic Event-Driven Monitor
-
-The agent fires the full pipeline only on state transitions — not on every tick. This eliminates redundant LLM API calls and enforces functional safety through predictable, deterministic behaviour.
-
-```python
-# agent/monitor.py
-def run():
-    prev_level = "clear"
-    while True:
-        data   = fetch_weather()         # Open-Meteo API
-        threat = assess_threat(data)
-        if threat["level"] != prev_level:
-            rag_doc = retrieve(data)
-            plan    = generate_plan(data, threat, rag_doc)
-            dispatch_alert(plan, threat)
-            prev_level = threat["level"]
-        time.sleep(int(os.getenv("ALERT_INTERVAL_SEC", 300)))
-```
-
-### 4 — Structured Prompt Engineering (3-Layer Architecture)
-
-```python
-# agent/plan_generator.py
-def build_prompt(weather, threat, rag_doc) -> str:
-    return f"""
-SYSTEM: You are TerraGuard, an autonomous emergency response agent
-        for {os.getenv('LOCATION_NAME')}. Respond only with
-        structured, localized action plans.
-
-LIVE TELEMETRY:
-  Temperature : {weather['temp']}°C  (feels like {weather['feel']}°C)
-  Wind        : {weather['wind']} km/h | Gusts: {weather['gust']} km/h
-  Humidity    : {weather['hum']}% | Precipitation: {weather['prec']} mm
-  Threat Level: {threat['level'].upper()} (score: {threat['score']}/100)
-
-RAG CONTEXT — VERIFIED PROTOCOL:
-{rag_doc['protocol']}
-
-TASK: Generate a 5-point emergency action plan in 200 words or fewer.
-      Include immediate (0–2hr) and short-term (2–24hr) actions.
-      Reference local infrastructure and institutions by name.
-"""
-```
+- 🛰 Real-time weather monitoring  
+- 🧮 Deterministic threat scoring (MCDA)  
+- 🔍 RAG-based SOP retrieval  
+- 🤖 AI-generated action plans  
+- 🔔 Smart alert system  
+- 📊 Dashboard visualization  
 
 ---
-
-## ✨ Features
-
+## Run agent
 ```
-🛰  Real-time weather telemetry via Open-Meteo (zero cost, no API key)
-🧮  MCDA Risk Indexing — deterministic 0–100 threat score
-🔍  RAG Knowledge Base — Heatwave, Dust Storm, Flash Flood, Cyclone SOPs
-🤖  Gemini 1.5 Flash LLM — localized, grounded emergency action plans
-📊  Neural Dashboard — Chart.js 7-day forecast + live metric cards
-🔔  Alert Dispatcher — state-transition-triggered, not timer-triggered
-📈  SDG 11 & 13 Impact Tracker — resilience index + warning coverage
-🔒  Functional Safety — zero hallucination in severity classification
-⚡  Low-Latency Sync — configurable deterministic 300s polling cycle
-🆓  Fully free stack — Open-Meteo + Gemini Free Tier + no paid services
-```
-
----
-
-## 🛠 Tech Stack
-
-| Layer | Technology | Purpose |
-|---|---|---|
-| Language | Python 3.10+ | Core agent logic |
-| AI Engine | Google Gemini 1.5 Flash | Plan generation |
-| Weather Data | Open-Meteo API | Live telemetry (free, no key) |
-| RAG Store | JSON / ChromaDB (optional) | Knowledge base retrieval |
-| Scheduling | Python `schedule` + `time` | Deterministic monitoring loop |
-| Frontend | HTML5 + Chart.js | Neural dashboard |
-| Config | `python-dotenv` | Secure API key management |
-| Testing | `pytest` | Unit tests for scorer + retriever |
-
----
-
-## 📁 Project Structure
-
-```
-TerraGuard-AI-Agent/
-│
-├── .gitignore                   ← blocks .env from GitHub
-├── .env                         ← YOUR SECRETS (never push this)
-├── .env.example                 ← safe template (push this)
-├── README.md
-├── requirements.txt
-│
-├── agent/
-│   ├── __init__.py
-│   ├── monitor.py               ← deterministic polling loop
-│   ├── threat_scorer.py         ← MCDA algorithm (0–100)
-│   ├── rag_retriever.py         ← RAG pipeline
-│   ├── plan_generator.py        ← Gemini API + prompt builder
-│   └── alert_dispatcher.py      ← notification dispatch
-│
-├── knowledge_base/
-│   ├── protocols.json           ← RAG documents (SOPs)
-│   └── location_config.json     ← geo-coordinates + sector info
-│
-├── api/
-│   ├── weather_client.py        ← Open-Meteo fetch wrapper
-│   └── llm_client.py            ← Gemini client (reads from .env)
-│
-├── ui/
-│   ├── dashboard.html           ← Neural Command Interface
-│   └── assets/
-│       └── chart-config.js
-│
-├── tests/
-│   ├── test_threat_scorer.py
-│   └── test_rag_retriever.py
-│
-└── logs/
-    └── .gitkeep                 ← folder tracked, .log files ignored
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.10 or higher
-- A free [Google AI Studio](https://aistudio.google.com/) account for your Gemini API key
-
-### 1 — Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/TerraGuard-AI-Agent.git
-cd TerraGuard-AI-Agent
-```
-
-### 2 — Create a Virtual Environment
-
-```bash
-python -m venv .venv
-
-# macOS / Linux
-source .venv/bin/activate
-
-# Windows
-.venv\Scripts\activate
-```
-
-### 3 — Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-`requirements.txt`:
-```
-google-generativeai>=0.5.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-schedule>=1.2.0
-```
-
----
-
-## ⚙ Configuration
-
-### Step 1 — Create your `.env` file (stays local — never pushed to GitHub)
-
-```bash
-cp .env.example .env
-```
-
-Then edit `.env` and fill in your values:
-
-```env
-# Google Gemini API key — get free at https://aistudio.google.com/
-GEMINI_API_KEY=your_google_ai_studio_key_here
-
-# Location settings
-LOCATION_LAT=24.59
-LOCATION_LON=72.71
-LOCATION_NAME=Abu, Rajasthan
-
-# Agent behaviour
-ALERT_INTERVAL_SEC=300
-LOG_LEVEL=INFO
-```
-
-### Step 2 — Verify `.gitignore` covers your secrets
-
-```gitignore
-# .gitignore
-.env
-.env.local
-.env.*.local
-__pycache__/
-*.pyc
-*.pyo
-logs/*.log
-.DS_Store
-.venv/
-*.sqlite
-```
-
-> ⚠️ **Never hardcode your API key** in any `.py` file. Always load it via `os.getenv("GEMINI_API_KEY")`. See the [API Key Safety](#-api-key-safety) section below.
-
----
-
-## ▶ Usage
-
-### Start the Agent Brain (monitoring loop)
-
-```bash
 python -m agent.monitor
 ```
-
-You will see output like:
-
-```
-[14:32:05] TerraGuard booted — monitoring Abu, Rajasthan (24.59°N 72.71°E)
-[14:32:06] Open-Meteo fetch OK — temp: 43°C, wind: 22 km/h
-[14:32:06] Threat assessed — WATCH (score: 42/100)
-[14:32:06] State change: CLEAR → WATCH — triggering RAG pipeline
-[14:32:06] RAG retrieved: Heatwave Protocol
-[14:32:07] Gemini plan generated (187 words)
-[14:32:07] Alert dispatched — next poll in 300s
-```
-
-### Launch the Neural Dashboard
-
-```bash
-# Option A — open directly in browser
-open ui/dashboard.html        # macOS
-xdg-open ui/dashboard.html    # Linux
-start ui/dashboard.html       # Windows
-
-# Option B — serve via local HTTP server
-python -m http.server 8000
-# Then visit: http://localhost:8000/ui/dashboard.html
-```
-
-### Run Tests
-
-```bash
-pytest tests/ -v
-```
-
-### Run a Single Threat Assessment (quick test)
-
-```python
-from agent.threat_scorer import assess_threat
-
-result = assess_threat({
-    'temp': 47, 'wind': 68, 'gust': 95,
-    'hum': 22, 'prec': 0.0, 'feel': 51
-})
-print(result)
-# {'score': 88, 'level': 'emergency'}
-```
-
 ---
-
-## 🔒 API Key Safety
-
-This is critical for safe GitHub usage. Follow this pattern exactly:
-
-```
-❌  WRONG — hardcoded key exposed on GitHub
-    client = GeminiClient(api_key="AIzaSy...")
-
-✅  CORRECT — key loaded from environment
-    import os
-    from dotenv import load_dotenv
-    load_dotenv()
-    client = GeminiClient(api_key=os.getenv("GEMINI_API_KEY"))
-```
-
-**Before every `git push`:**
-
-```bash
-# Confirm .env is NOT staged
-git status | grep ".env"          # should return nothing
-
-# Search staged files for key patterns
-git diff --cached | grep -i "AIzaSy"   # should return nothing
-```
-
-**If you accidentally committed a key:**
-1. Immediately rotate it at [aistudio.google.com](https://aistudio.google.com/)
-2. Use [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) to scrub history
-3. Force push the cleaned branch
-
----
-
-## 🎯 SDG Alignment
-
-| Goal | Metric | TerraGuard Contribution |
-|---|---|---|
-| **SDG 11** — Sustainable Cities | Community resilience index | Autonomous early warnings protect urban populations from extreme weather events |
-| **SDG 13** — Climate Action | Early warning coverage % | Deterministic monitoring ensures 24/7 proactive climate risk surveillance |
-
-Both metrics are tracked live in the Neural Dashboard and recomputed on every state transition.
-
----
-
-## 🗺 Supported Locations (Out of the Box)
-
-| Location | Coordinates | Primary Risks |
-|---|---|---|
-| Abu, Rajasthan | 24.59°N 72.71°E | Heatwave, Dust Storm (Andhi) |
-| Jaipur, Rajasthan | 26.91°N 75.78°E | Extreme Heat |
-| Mumbai, Maharashtra | 19.07°N 72.87°E | Flash Flood, Cyclone |
-| New Delhi, NCT | 28.61°N 77.20°E | Dust Storm + Heat Combo |
-| Bengaluru, Karnataka | 12.97°N 77.59°E | Routine / Low Risk |
-| Chennai, Tamil Nadu | 13.08°N 80.27°E | Cyclone, Coastal Surge |
-
-Add any location by updating `LOCATION_LAT` and `LOCATION_LON` in your `.env`.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome. Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch — `git checkout -b feature/your-feature`
-3. Commit with a clear message — `git commit -m "feat: add ChromaDB vector retrieval"`
-4. Push the branch — `git push origin feature/your-feature`
-5. Open a Pull Request
-
-**Areas where contributions are especially valued:**
-- Adding ChromaDB or FAISS as an optional vector-store backend for RAG
-- Expanding the `knowledge_base/protocols.json` with more regional SOPs
-- Integrating n8n workflow triggers for automated community notifications
-- Adding Ollama support for fully offline, private LLM inference
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-**Built with functional safety principles and zero-cost open infrastructure.**
-
-*Inspired by [500 AI Agents Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) by Ashish Patel*
-
-*Aligned with UN Sustainable Development Goals 11 & 13*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
-
-</div>
