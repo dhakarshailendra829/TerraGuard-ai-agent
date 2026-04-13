@@ -49,7 +49,7 @@ def assess_threat(data):
 
 ## Run agent
 ```
-git clone https://github.com/dhakarshailendra829/TerraGuard-AI-Agent.git
+git clone https://github.com/dhakarshailendra829/TerraGuard-ai-agent.git
 cd TerraGuard-AI-Agent
 python -m agent.monitor
 pip install -r requirements.txt
